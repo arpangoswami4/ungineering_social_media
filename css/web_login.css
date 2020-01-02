@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 600px;
+    width: 99%;
+}
+.r1{
+    height:30px;
+    width:100%;
+    border: black 1px solid;
+}
+.r2{
+    height:40px;
+    width:100%;
+    border: black 1px solid;
+}
+.r3{
+    height:30px;
+    width:100%;
+    border: black 1px solid;
+}
+.r4{
+    height:400px;
+    width:100%;
+    border: black 1px solid;
+}
+.r5{
+    border: black 1px solid;
+    width: 100%;
+    height:100px;
+}
+.r2c1{
+    border: red 1px solid;
+    width: 40%;
+    height:38px;
+    float: left;
+}
+.r2c2{
+    border: red 1px solid;
+    width: 20%;
+    height: 38px;
+    float: left;
+}
+.r2c3{
+    border: red 1px solid;
+    width: 40%;
+    height: 38px;
+    float: left;
+}
+.r4c1{
+    border: red 1px solid;
+    width: 28%;
+    height:398px;
+    float: left;
+}
+.r4c2{
+    border: red 1px solid;
+    width: 44%;
+    height:398px;
+    float: left;
+}
+.r4c3{
+    border: red 1px solid;
+    width: 28%;
+    height:398px;
+    float: left;
+}
+.r4c2c1{
+    border: blue 1px solid;
+    width: 17%;
+    height:398px;
+    float: left;
+}
+.r4c2c2{
+    border: blue 1px solid;
+    width: 66%;
+    height:398px;
+    float: left;
+}
+.r4c2c3{
+    border: blue 1px solid;
+    width: 17%;
+    height:398px;
+    float: left;
+}
+.r4c2c2r1{
+    border: green 1px solid;
+    width: 100%;
+    height:52.8px;
+}
+.r4c2c2r2{
+    border: green 1px solid;
+    width: 100%;
+    height:79.2px;
+}
+.r4c2c2r3{
+    border: green 1px solid;
+    width: 100%;
+    height:158.4px;
+}
+.r4c2c2r4{
+    border: green 1px solid;
+    width: 100%;
+    height:13.2px;
+}
+.r4c2c2r5{
+    border: green 1px solid;
+    width: 100%;
+    height:92.4px;
+}
+.r4c2c2r1c1{
+    border: yellow 1px solid;
+    width: 33.33%;
+    height:50.8px;
+    float: left;
+}
+.r4c2c2r1c2{
+    border: yellow 1px solid;
+    width: 33.33%;
+    height:50.8px;
+    float: left;
+}
+.r4c2c2r1c3{
+    border: yellow 1px solid;
+    width: 33.33%;
+    height:50.8px;
+    float: left;
+}
+
+
+
