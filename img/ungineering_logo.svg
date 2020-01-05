@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="99px" viewBox="0 0 80 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>svg-logo-testing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.2575758,61.0384615 L31.8181818,63 C31.8181818,63 44.8484848,49.2692306 56.5757576,57.7692308 C68.3030303,66.2692309 65.6969697,90.4615385 65.6969697,90.4615385 L56.5757576,91.1153846 C56.5757576,91.1153846 61.1363636,58.4230776 43.5454545,62.3461539 C25.9545455,66.2692302 37.030303,94.3846154 37.030303,94.3846154 L33.1212121,97 C33.1212121,97 25.3030303,81.9615373 27.2575758,70.8461538 L24.6515152,68.2307694 L27.2575758,61.0384615 Z" id="path-1"></path>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Corrections" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dashboard-expanded-1-Copy" transform="translate(-69.000000, -99.000000)">
+            <g id="svg-logo-testing" transform="translate(69.000000, 99.000000)">
+                <path d="M30.5151515,40.7692308 L37.6818182,40.1153846 C37.6818182,40.1153846 31.1666681,68.2307692 45.5000002,63 C59.8333323,57.7692308 48.1060606,30.3076923 48.1060606,30.3076923 L52.0151515,29 C52.0151515,29 65.6969699,62.3461538 44.1969697,68.8846154 C22.6969695,75.4230769 30.5151515,40.7692308 30.5151515,40.7692308 Z" id="Path-977" fill="#F04C4E"></path>
+                <g id="Path-978">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F04C4E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M0,25.2777778 L1.31147541,28.5185185 L17.0491803,22.037037 L22.9508197,35 L53.7704918,22.037037 L48.5245902,9.07407407 L56.3934426,5.83333333 C56.3934426,5.83333333 60.1055793,10.4514916 63.6065574,12.3148148 C67.1075354,14.1781381 73.442623,14.9074074 73.442623,14.9074074 C73.442623,14.9074074 73.7916951,15.5816756 76.0655738,14.9074074 C78.3394525,14.2331392 80,12.962963 80,12.962963 L78.0327869,11.0185185 C78.0327869,11.0185185 75.4098361,11.6666667 74.0983607,12.962963 C74.0983607,12.962963 68.9549659,13.5309621 64.2622951,11.0185185 C59.5696243,8.5060749 58.3606557,4.53703704 58.3606557,4.53703704 L62.9508197,2.59259259 L61.6393443,9.66338121e-13 L0,25.2777778 Z" id="Path-979" fill="#373737"></path>
+            </g>
+        </g>
+    </g>
+</svg>

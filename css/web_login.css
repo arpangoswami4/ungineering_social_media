@@ -9,7 +9,6 @@ body{
 .r1{
     height:15%;
     width:100%;
-    border: black 1px solid;
 }
 .r2{
     height:60%;
@@ -17,13 +16,11 @@ body{
     border: black 1px solid;
 }
 .r3{
-    border: black 1px solid;
     width: 100%;
     height:25%;
     background-color: #373737;
 }
 .r1c1{
-    border: red 1px solid;
     width: 16%;
     height:40%;
     margin: 55px 533.047px 35px 533.047px;
@@ -35,6 +32,7 @@ body{
     float: left;
 }
 .r2c2{
+    
     border: red 1px solid;
     width: 44%;
     height:100%;
@@ -111,26 +109,23 @@ body{
     width:68%;
     height:100%;
     float: left;
-    border: 1px red solid;
     padding:75px 584px 75px 128px; 
 }
 .r3c2{
     width: 32%;
     height:100%;
     float: right;
-    border: 1px red solid;
     padding:75px 96px 90px 0px;
     
               
 }
 .r3c1r1{
-    border: 1px blue solid;
     font-size: 18px;
+    color: #EAEAEA;
     height:40%;
     width:100%;
 }
 .r3c1r2{
-    border: 1px blue solid;
     height:60%;
     width:100%;
     padding-top:12px;
@@ -140,13 +135,11 @@ body{
     height:100%;
     float: left;
     margin-right:10px;
-    border: 1px green solid;
 }
 .r3c1r2c2{
     width:25%;
     height:100%;
     float: left;
-    border: 1px green solid;
 }
 
 .img_facebook{
@@ -158,11 +151,38 @@ body{
 .r3c2r1{
     height:47%;
     font-size: 18px;
-    border: solid yellow 1px;
+    color: #EAEAEA;
 }
 .r3c2r2{
     height:53%;
     font-size: 22px;
-    border: solid yellow 1px;
+    color: #EAEAEA;
     padding-left: 38px; 
+}
+.r1c1c1{
+    width:23%;
+    height:100%;
+    float: left;
+}
+.r1c1c2{
+    width:77%;
+    height:100%;
+    float: left;
+}
+.img_ungineering{
+    height: 55px;
+}
+.red{
+    color: red;
+}
+.r1c1c2r1{
+    font-size: 28px;
+    height: 70%;
+    width: 100%;
+    padding-top:9px;
+}
+.r1c1c2r2{
+    font-size: 9px;
+    height:30%;
+    width: 100%;
 }
