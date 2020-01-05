@@ -1,0 +1,193 @@
+body{
+    background-color:hsl(0, 0%,96%);
+    font-family:'Open Sans', sans-serif;
+    
+    margin:0 0 0 0;
+
+
+}
+.navbar{
+    background-color:white;
+
+    width:100%;
+    text-decoration:none;
+    
+    display:inline-block;
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+}
+
+span{
+    color:#f04c4e;
+    
+}
+
+
+
+.logo{
+    float:left;
+
+    margin:45px 0 30px 50px;
+
+
+}
+
+.logo-text{
+    float:left;
+    font-size:30px;
+    padding:10px 0 0 2px;
+    }
+    
+.logo-img{
+    width:20%;
+    float:left;
+}
+
+.tagline{
+    font-size:9px;
+}
+
+
+.dashboard{
+    float:left;
+    margin:70px 0 30px 600px;
+    color:#f04c4e;
+
+
+    font-size:16px;
+}
+
+.dashboard:hover{
+    cursor:pointer;
+    
+}
+    
+
+
+
+.button{
+    color:#f04c4e;
+    padding:6px 34px;
+    border:1px solid red;
+    background-color:white;
+    font-weight:bold;
+    font-size:20px
+    float:left;
+    margin:65px  0 0 20px ;
+
+}
+
+.button:hover{
+   background-color:#f04c4e;
+   color:white;
+   cursor:pointer;
+   
+    
+}
+
+.textarea{
+
+    padding:30px 0  70px 300px;
+}
+
+
+
+h1{
+    color:#4A4A4A;
+    font-size:24px;
+    }
+
+.post{
+    padding:0 0 0 527px;
+    }
+    
+.postbutton{
+    color:white;
+    padding:6px 40px;
+    border:1px solid red;
+    background-color:#f04c4e;
+    font-weight:bold;
+    font-size:20px
+    float:left;
+     
+    }
+    
+.postbutton:hover{
+   cursor:pointer;
+   
+    
+}
+
+
+
+
+
+
+
+.comment-box{
+    background-color:white;
+
+    width:50%;
+    margin:30px 0  0 300px;
+    color:black ;
+
+}
+
+.p-name{
+    padding:20px  0 0 30px;
+}
+
+.p{
+    padding: 0 30px  0 30px ;
+}
+
+.time{
+    padding:0 30px 20px 0px;
+    text-align:right;
+}
+
+.footer{
+    background-color:#373737;
+    border:1px solid black;
+    color:white;
+    margin:100px 0 0  0 ;
+
+
+}
+
+.contact{
+    display:inline-block;
+    padding:50px 0 50px 130px;
+
+}
+
+.icon{
+    padding:10px 10px 0 0 ;
+    width:22%;
+    
+}
+
+.queries{
+    display:inline-block;
+    padding:0 0 20px 600px;
+    text-align:right;
+
+    
+}
+
+.q1{
+    margin:0;
+    font-size:14px;
+    
+}
+
+.q2{
+    margin:0;
+    font-size:20px;
+}
+
+
+
+
+
