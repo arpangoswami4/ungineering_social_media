@@ -1,0 +1,43 @@
+[33mcommit 587f14504d886ad713981f52f0dd835fb15005f1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2b5d725 03fde71
+Author: Arpan <arpan.goswami21@gmail.com>
+Date:   Sun Jan 5 17:32:31 2020 +0530
+
+    new commit
+
+[33mcommit 03fde711b9981f564ec37f003a28c8e9c0b7d84a[m
+Merge: 260b7fa c12f2d0
+Author: Kritidipto Ghosh <kritidiptodgp.ghosh@gmail.com>
+Date:   Sun Jan 5 22:23:14 2020 +0530
+
+    my first git pullMerge branch 'master' of https://github.com/arpangoswami4/ungineering_social_media
+
+[33mcommit 260b7fadf4f1684d26478e05cedb79414dc9d8d8[m
+Author: Kritidipto Ghosh <kritidiptodgp.ghosh@gmail.com>
+Date:   Sun Jan 5 22:18:41 2020 +0530
+
+    Web Registration 1st version
+
+[33mcommit 2b5d725fa65d1e1289b583134a65bf5796d6dfcb[m
+Author: Arpan <arpan.goswami21@gmail.com>
+Date:   Sun Jan 5 17:27:31 2020 +0530
+
+    row 1 and 3 complete
+
+[33mcommit c12f2d099f50ff916540dd7a3eab5e254d9d669e[m
+Author: Arpan <arpan.goswami21@gmail.com>
+Date:   Sun Jan 5 00:19:31 2020 +0530
+
+    2nd commit,row 3 almost done
+
+[33mcommit c01b4544f69dde13ec5f78e06594e426f300dc7f[m
+Author: Arpan <arpan.goswami21@gmail.com>
+Date:   Thu Jan 2 10:45:19 2020 +0530
+
+    initial commit
+
+[33mcommit 80e83884814400254e809b073dc07e2b8ece5cfc[m
+Author: arpangoswami4 <59387897+arpangoswami4@users.noreply.github.com>
+Date:   Tue Dec 31 14:23:37 2019 +0530
+
+    Initial commit
