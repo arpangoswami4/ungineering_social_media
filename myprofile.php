@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>My Profile</title>
-        <link rel="stylesheet" href="css/web_MyProfile.css"/>
+        <link rel="stylesheet" href="css/myprofile.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     </head>
     <body>
@@ -28,19 +27,55 @@
                 <a href="https://www.youtube.com/"><span style="text-decoration: underline;"><b>Edit profile</b></span></a>
             </div>
             <div class="c2">
+                
+                
+                <?php
+                    session_start();
+                    $hostname="127.0.0.1";
+                    $username="root";
+                    $db_password="123456";
+                    $db_name="social_media";
+                    
+                    $conn=mysqli_connect($hostname,$username,$db_password,$db_name);
+                    if(!$conn)
+                    {
+                        die("Connection failed : ". mysqli_connect_error());
+                    }
+                    
+                    
+                    $sql="SELECT * FROM statuses";
+                    
+                    $result=mysqli_query($conn,$sql); 
+                    if(!$result)
+                    {
+                        die("Error: ".$sql."<br/>". mysqli_error($conn));
+                    }
+                    
+                    $_SESSION['id']=4;
+                    
+                    
+                    while ( $row=mysqli_fetch_array($result)) 
+                    {
+                        if ($_SESSION['id']==$row['users_id'])
+                        {
+                         
+                ?>          
                 <div class="c21">
-                    <p>Dubai is one of the most exciting cities to ring in the new year! High rise buildings, mesmerizing fireworks, parties, clubbing scenes, and the overall pomp and show makes it sizzle with excitement. There is so much to do for everyone during Dubai New Year that it has become one of the most happening year-end destinations in the world.</p>
-                    <div class="time">Time 24:40 Hrs IST/26 dec</div>
-                </div>
-                <div class="c21">
-                    <p>New Year is always considered to be a special time of the year. Obviously, you would like to spend this time with your near and dear ones, as it is the start of the year with new hope and energy. The best way to celebrate the arrival of New Year is by going for a trip to the Golden City of Rajasthan - Jaisalmer.</p>
-                    <div class="time">Time 24:40 Hrs IST/26 dec</div>
-                </div>
+                                      
+                            <p><?php echo $row['status']; ?></p>
+                            <div class="time"><?php echo $row['time']."/".$row['date']; ?></div>          
+                </div>       
+                <?php      
+                        }
+                     } 
+                     mysqli_close($conn);
+                ?>
+                   
             </div>    
         </div>
         <div class="d3">
             <div class="d31">Connect with us at<br><br><a href="https://www.youtube.com/"><img class="nimg" src="https://i.pinimg.com/originals/19/7b/36/197b365922d1ea3aa1a932ff9bbda4a6.png" alt="Youtube logo"></a><a href="https://m.facebook.com/"><img class="nimg" src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" alt="Facebook logo"></a></div>
-            <div style="text-align:right;" class="d32">For any questions/doubts,write us at <h1>queries@ungineering.com</h1></div>
+            <div  class="d32" style="text-align:right;">For any questions/doubts,write us at <h1>queries@ungineering.com</h1></div>
         </div>
     </body>
 </html>

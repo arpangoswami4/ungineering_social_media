@@ -16,8 +16,7 @@ h1,h6{
 }
 body{
     
-    height: 700px;
-    height: 1000px;
+ 
 }
 span{
     color: red;
@@ -34,7 +33,7 @@ hr{
     margin: 0px;
 }
 .d1{
-    height: 15%;
+    height: 150px;
     width:100%;
 }
 .r1{
@@ -62,19 +61,22 @@ hr{
     float: right;
 }
 .d2{
-    height:70%;
     width:100%;
 }
-.c1{
-    padding-left: 7%;
-    padding-top: 7%;
-    height: 100%;
+.d2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.c1{height: 700px;
+    padding-left: 125px;
+    padding-top: 125px;
     width: 22%;
     float: left;
 }
 .c2{
+    min-height: 700px;
     width: 60%;
-    height: 100%;
     background:  rgb(228,228,240);
     float: left;
 }
@@ -85,15 +87,16 @@ hr{
     font-size: 23px;
     border: 1px solid rgb(200,200,200);
     width: 100%;
-    min-height: 40%;
+    height: 250px;
     background:  rgb(255,255,255);
     margin-bottom: 30px;
     position: relative;
 }
 .d3{
+    
      background: rgb(88,88,88);
      width: 100%;
-     height: 15%;
+     height: 150px;
 }
 .d31{
     padding-top: 2%;
