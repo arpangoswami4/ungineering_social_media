@@ -6,7 +6,7 @@
     $db_name="social_media";
     
     
-    $conn=msqli_connect($hostname,$sql_username,$db_password,$db_name);
+    $conn=mysqli_connect($hostname,$sql_username,$db_password,$db_name);
     if(!$conn){
         die("Connection failed: ". mysqli_connect_error());
     }
@@ -16,23 +16,25 @@
     $confirm_password=$_POST['confirm_password'];
     if($password!=$confirm_password)
     {
-        echo "password not matched,please enter again";
+        echo"Password not matched <br/>";
+        ?><a href="registration.html">Click here to try again</a><?php
+        exit;
         
     }
     $sql="INSERT INTO users (name,email,password) VALUES ('$name','$email','$password')";
-    $result=msqli_query($conn,$sql);
+    $result=mysqli_query($conn,$sql);
     if(!$result){
         die("Error: " .$sql."<br/>" . mysqli_error($conn));
     }
     $sql1="SELECT * FROM users WHERE name='$name'";
-    $result1=$msqli_query($conn,$sql1);
+    $result1=mysqli_query($conn,$sql1);
     if(!$result){
         die("Error: " .$sql."<br/>" . mysqli_error($conn));
     }
-    $row=msqli_fetch_array($result);
+    $row=mysqli_fetch_array($result1);
     $_SESSION['id']=$row['id'];
     $_SESSION['name']=$name;        
-    echo "Registration sucessful";
+    header("Location:homepage-loggedin.html");
     mysql_close($conn);
 ?>
 

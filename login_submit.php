@@ -6,24 +6,25 @@
     $db_name="social_media";
     
     
-    $conn=msqli_connect($hostname,$sql_username,$db_password,$db_name);
+    $conn=mysqli_connect($hostname,$sql_username,$db_password,$db_name);
     if(!$conn){
         die("Connection failed: ". mysqli_connect_error());
     }
-    $email=$_POST['name'];
-    $email=$_POST['password'];
-    $sql="SELECT * FROM users WHERE name='$name' AND password='$password'";
-    $result=msqli_connect($conn,$sql);
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $sql="SELECT * FROM users WHERE email='$email' AND password='$password'";
+    $result=mysqli_query($conn,$sql);
     if(!$result){
-            die("Error: " .$sql."<br/>" . mysqli_error($conn));
+            die("Error: " . mysqli_error($conn));
     }
     $row=mysqli_fetch_array($result);
-    if(isset($row)){
-        echo "login successful";
+    if($row!=NULL){
         $_SESSION['id']=$row['id'];
         $_SESSION['name']=$row['name'];
+        header("Location:homepage-loggedin.html");
     }
     else{
-        echo "WRONG EMAIL OR PASSWORD";
+        echo "Wrong Email OR Password <br/>";
+        ?><a href="login.html">Click here to try again</a><?php
     }        
-    ?>
+?>
