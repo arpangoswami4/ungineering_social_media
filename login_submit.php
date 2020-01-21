@@ -12,6 +12,12 @@
     }
     $email=$_POST['email'];
     $password=$_POST['password'];
+    if($email==NULL || $password==NULL)
+    {
+        echo"Please fill up all the fields properly <br/>";
+        ?><a href="registration.html">Click here to try again</a><?php
+        exit;
+    }
     $sql="SELECT * FROM users WHERE email='$email' AND password='$password'";
     $result=mysqli_query($conn,$sql);
     if(!$result){

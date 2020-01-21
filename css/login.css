@@ -126,6 +126,7 @@ body{
     background:#EF4C4D;
     padding:10px 163px;
     font-size:19px;
+    color: white;
 }
 .r1r2c1r2c1r5{
     width:100%;
@@ -203,9 +204,10 @@ body{
     font-size:21px;
     padding-left:33px;
 }  
-.log-in{
-    font-size:19px;
-    color: white;
-    background:#EF4C4D;
-    border: none;
-}     
+.black{
+    color: black;
+    
+}
+.achor{
+    text-decoration: none;
+}

@@ -14,6 +14,12 @@
     $email=$_POST['email'];
     $password=$_POST['password'];
     $confirm_password=$_POST['confirm_password'];
+    if($name==NULL  || $email==NULL || $password==NULL || $confirm_password==NULL)
+    {
+        echo"Please fill up all the fields properly <br/>";
+        ?><a href="registration.html">Click here to try again</a><?php
+        exit;
+    }
     if($password!=$confirm_password)
     {
         echo"Password not matched <br/>";
