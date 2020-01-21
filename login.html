@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>UNGINEERING-LOGIN OR SIGNUP</title>
-        <link rel="stylesheet" href="css/web_login2.css"/>
+        <link rel="stylesheet" href="css/login.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
     </head>
@@ -34,23 +34,25 @@
                         </div>
                     </div>
                     <div class="r1r2c1r2">
-                        <div class="r1r2c1r2c1">                            
-                            <div class="r1r2c1r2c1r1">
-                                Login into Ungineering<br/> Account                            
-                            </div>
-                            <div class="r1r2c1r2c1r2">
-                                Email<br/> <input class="email_input" type="text"/>                          
-                            </div>
-                            <div class="r1r2c1r2c1r3">
-                                Password<br/> <input class="email_input" type="text"/>                                  
-                            </div>
-                            <div class="r1r2c1r2c1r4">
-                                    Log-in                            
-                            </div>
+                        <form action="login_submit.php" method="post">
+                            <div class="r1r2c1r2c1">                            
+                                <div class="r1r2c1r2c1r1">
+                                    Login into Ungineering<br/> Account                            
+                                </div>
+                                <div class="r1r2c1r2c1r2">
+                                    Email<br/> <input class="email_input" type="text" name="email"/>                          
+                                </div>
+                                <div class="r1r2c1r2c1r3">
+                                    Password<br/> <input class="email_input" type="text" name="password"/>                                  
+                                </div>
+                                <div class="r1r2c1r2c1r4">
+                                    <input type="submit" value="Log-in" name="log-in" class="log-in"/>                           
+                                </div>
+                        </form>
                             <div class="r1r2c1r2c1r5">
                                 <u>New User,Create Account</u>                            
                             </div>
-                        </div>
+                            </div>
                     </div>
                 </div>
             </div>

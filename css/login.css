@@ -124,8 +124,7 @@ body{
     height:45px;
     margin-bottom:15px;
     background:#EF4C4D;
-    color: white;
-    padding:7px 163px;
+    padding:10px 163px;
     font-size:19px;
 }
 .r1r2c1r2c1r5{
@@ -204,5 +203,9 @@ body{
     font-size:21px;
     padding-left:33px;
 }  
-
-     
+.log-in{
+    font-size:19px;
+    color: white;
+    background:#EF4C4D;
+    border: none;
+}     
