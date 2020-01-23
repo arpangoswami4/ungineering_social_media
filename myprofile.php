@@ -43,7 +43,7 @@
                     }
                     
                     
-                    $sql="SELECT * FROM statuses";
+                    $sql="SELECT * FROM statuses ORDER BY date";
                     
                     $result=mysqli_query($conn,$sql); 
                     if(!$result)
