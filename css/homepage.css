@@ -84,7 +84,7 @@ img{
 
 .coloured-link{
     color:#f04c4e;
-    padding:0 0 0 0;
+    padding:0 10px 0 0;
     
  }
     
@@ -98,7 +98,7 @@ img{
     box-sizing:border-box;
 }
 
-.btn1{
+.dashboard{
     
     color:#f04c4e;
     float:right;
@@ -107,7 +107,10 @@ img{
     margin:47px 40px 0 0;
 }
 
-
+.dashboard:hover{
+    cursor:pointer;
+    
+}
     
 .button{
     color:#f04c4e;
@@ -118,9 +121,8 @@ img{
     font-size:15px;
     float:right;
     border:1px solid black;
-    margin:40px 10px 0 0;
+    margin:40px 0 0 0;
 }
-
 
 .button:hover{
    background-color:#f04c4e;
@@ -131,13 +133,15 @@ img{
 
 .textarea-container{
     border:1px solid black;
-    margin:30px  0 0 0 ;
+    margin:30px  100px 0 130px ;
 }
+
+
 .textarea{
     
     border:1px solid black;
     margin:auto;
-    width:50%;
+    width:60%;
 }
 
 
@@ -148,7 +152,7 @@ h1{
     }
 
 .post{
-    padding:0 0 0 527px;
+    ;
     }
     
 .post::after {
@@ -164,8 +168,8 @@ h1{
     border:1px solid red;
     background-color:#f04c4e;
     font-weight:bold;
-    font-size:20px
-    float:left;
+    font-size:16px;
+    float:right;
      
 }
     
@@ -174,6 +178,10 @@ h1{
 }
 
 
+.text{
+    width:98%;
+    height:130px;
+    }
 
 .comment-box{
     border:1px solid black;
@@ -184,15 +192,17 @@ h1{
 
 .comment{
     background-color:white;
-    width:50%;
+    width:60%;
     margin:auto;
     color:black ;
     border:1px solid black;
+    margin:20px auto 20px auto;
 }
 
 .p-name{
     padding:0 0 0 30px;
     font-weight:bold;
+    color:#484848;
 }
 
 .p-comment{
@@ -233,7 +243,7 @@ h1{
 }
 
 .icon{
-    padding:0 10px 0 0 ;
+    padding:10px 10px 0 0 ;
     width:40px;
 }
 

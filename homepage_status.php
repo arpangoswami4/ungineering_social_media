@@ -17,7 +17,7 @@
     if (!$result) {
         die("Error: " . $sql . "<br>" . mysqli_error($conn));
     }   
-    header("Location:homepage-loggedin.php");   
+    header("Location:homepage.php");   
     mysqli_close($conn); 
 ?>
 

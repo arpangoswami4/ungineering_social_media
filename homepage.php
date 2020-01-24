@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>homepage-loggedin</title>
-        <link rel="stylesheet" href="css/homepage-loggedin.css"/>
+        <link rel="stylesheet" href="css/homepage.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">      
         <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     </head> 
@@ -51,50 +51,50 @@
         <div class="textarea-container">   
             <?php
                 session_start();
-                if (isset($_SESSION['id'])){
+                if (isset($_SESSION['id']))
+                {
                     ?>
                     <div class="textarea">
                         <h1>Write something here</h1>
-                        <form method="post" action="homepage-loggedin_status.php">
+                        <form method="post" action="homepage_status.php">
                             <textarea class="text" value="" name="status"> </textarea>
                             <div class="post"><button class="postbutton" type ="submit" formmethod="post">Post</button></div>
                         </form>  
                     </div>   
-             <?php
-                    $hostname = "127.0.0.1";
-                    $username = "root";
-                    $db_password = "123456";
-                    $database = "social_media";
-                    $conn = mysqli_connect($hostname, $username, $db_password, $database);      
-                    if (!$conn) {
-                        die("Connection failed: " . mysqli_connect_error());
-                    }        
-                    $sql="SELECT * FROM statuses INNER JOIN users ON users.id=statuses.users_id ORDER BY users_id DESC";
-                    $result = mysqli_query($conn, $sql);
-                    if (!$result) {
-                        die("Error: " . $sql . "<br>" . mysqli_error($conn));
-                    }              
-                    while ($row=mysqli_fetch_array($result) ) {
-                        ?>
+                    <?php
+                        $hostname = "127.0.0.1";
+                        $username = "root";
+                        $db_password = "123456";
+                        $database = "social_media";
+                        $conn = mysqli_connect($hostname, $username, $db_password, $database);      
+                        if (!$conn) {
+                            die("Connection failed: " . mysqli_connect_error());
+                        }        
+                        $sql="SELECT * FROM statuses INNER JOIN users ON users.id=statuses.users_id ORDER BY users_id DESC";
+                        $result = mysqli_query($conn, $sql);
+                        if (!$result) {
+                            die("Error: " . $sql . "<br>" . mysqli_error($conn));
+                        }              
+                        while ($row=mysqli_fetch_array($result) ) 
+                        {
+                    ?>
                         <div class="comment">
                             <p class="p-name">
-                                <?php echo $row['name']; ?>    
+                                <?php echo $row['name'];?>    
                             </p>
                             <p class="p-comment">
-                               <?php echo $row['status']; ?>
+                               <?php echo $row['status'];?>
                             </p>               
                             <p class="time">
-                                <?php echo  "Time: " . $row['time'] . "|"; ?>
-                                <?php echo $row['date']; ?>                    
+                               <?php echo  "Time: " . $row['time'] . "|";?>
+                               <?php echo $row['date'];?>                    
                             </p>                     
-                        </div>
-                        <?php                
-                    }          
-                }          
-            ?>                          
+                        </div>                        
                     <?php
-                }
-                else{       
+                    }
+                  }
+                
+                else{      
                     $hostname = "127.0.0.1";
                     $username = "root";
                     $db_password = "123456";

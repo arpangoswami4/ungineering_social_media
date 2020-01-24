@@ -1,5 +1,5 @@
 <?php 
     session_start();
     session_destroy();
-    header("Location:homepage-loggedin.php");  
+    header("Location:homepage.php");  
 ?> 
