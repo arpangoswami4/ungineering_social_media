@@ -27,7 +27,7 @@
     if($row!=NULL){
         $_SESSION['id']=$row['id'];
         $_SESSION['name']=$row['name'];
-        header("Location:homepage-loggedin.html");
+        header("Location:homepage-loggedin.php");
     }
     else{
         echo "Wrong Email OR Password <br/>";
