@@ -51,7 +51,7 @@
                         die("Error: ".$sql."<br/>". mysqli_error($conn));
                     }
                     
-                    $_SESSION['id']=3;
+                    //$_SESSION['id']=3;
                     
                     
                     while ( $row=mysqli_fetch_array($result)) 
