@@ -3,9 +3,7 @@
     $hostname="127.0.0.1";
     $sql_username="root";
     $db_password="123456";
-    $db_name="social_media";
-    
-    
+    $db_name="social_media"; 
     $conn=mysqli_connect($hostname,$sql_username,$db_password,$db_name);
     if(!$conn){
         die("Connection failed: ". mysqli_connect_error());
@@ -40,7 +38,7 @@
     $row=mysqli_fetch_array($result1);
     $_SESSION['id']=$row['id'];
     $_SESSION['name']=$name;        
-    header("Location:homepage-loggedin.html");
+    header("Location:homepage-loggedin.php");
     mysql_close($conn);
 ?>
 
