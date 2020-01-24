@@ -17,7 +17,7 @@
             </div>
             <div class="r2">
                 <b><a style="color: black;" href="https://www.youtube.com/">My D<span style="text-decoration: none; color: black;">ashboard</span></a></b>
-                <a href="https://www.youtube.com/" style="text-decoration:none;" class="logout">Logout</a>
+                <a href="logout.php" style="text-decoration:none;" class="logout">Logout</a>
             </div>
         </div>
         <hr>
@@ -51,7 +51,7 @@
                         die("Error: ".$sql."<br/>". mysqli_error($conn));
                     }
                     
-                    //$_SESSION['id']=3;
+                    $_SESSION['id']=3;
                     
                     
                     while ( $row=mysqli_fetch_array($result)) 
