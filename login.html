@@ -15,12 +15,12 @@
                    </div>
                    <div class="r1r1c2">
                        <div class="r1r1c2r1">
-                       <span class="black">
+                       <span class="black1">
                        <span class="red">un</span>gineering
                        </span>
                        </div>
                        <div class="r1r1c2r2">
-                       <span class="black">
+                       <span class="black1">
                            A <span class="red">bit</span> of knowlege is good.A <span class="red">byte</span> is better
                        </div>
                        </span>
@@ -30,21 +30,21 @@
             <div class="r1r2">
                 <div class="r1r2c1">
                     <div class="r1r2c1r1">
-                        <div class="r1r2c1r1c1">
-                            <a href="login.html">
-                                <div class="exist">
+                        <div class="r1r2c1r1c1">                            
+                            <div class="exist">
+                                <a href="login.html">
                                     <span class="black"><u>Existing User</u></span>
-                                </div>
-                            </a>
-                            <a href="registration.html">
-                                <div class="new">
-                                    <u>New User</u>
-                                </div>
-                            </a>
+                                </a>
+                            </div>                            
+                            <div class="new">
+                                <a href="registration.html">
+                                    <span class="create"><u>New User</u></span>
+                                </a>
+                            </div>                            
                         </div>
                     </div>
                     <div class="r1r2c1r2">
-                        <form action="login_submit.php" method="post">
+                        <form class="login_form" action="login_submit.php" method="post">
                             <div class="r1r2c1r2c1">                            
                                 <div class="r1r2c1r2c1r1">
                                     Login into Ungineering<br/> Account                            
@@ -58,12 +58,12 @@
                                 <div>
                                     <input type="submit" value="Log-in" name="log-in" class="r1r2c1r2c1r4"/>                           
                                 </div>
-                        </form>
-                            <a href="registration.html">
-                                <div class="r1r2c1r2c1r5">
-                                    <u>New User,Create Account</u>                            
-                                </div>
-                            </a>
+                        </form>                            
+                            <div class="r1r2c1r2c1r5">
+                                <a href="registration.html">
+                                    <span class="create"><u>New User,Create Account</u></span>
+                                </a>                            
+                            </div>
                             </div>
                     </div>
                 </div>
@@ -100,6 +100,8 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
     </body>
 </html>
             

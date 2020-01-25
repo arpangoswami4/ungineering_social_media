@@ -92,7 +92,7 @@ body{
     width: 66%;
     height:100%;
     float: left;  
-    color: red;
+    color: #EF4C4D;
     font-weight: bold;
     padding-top: 33px;
     font-size: 20px;
@@ -205,9 +205,15 @@ body{
     padding-left:33px;
 }  
 .black{
-    color: black;
+    color: #373737;
     
+}
+.black1{
+    color: black;
 }
 .achor{
     text-decoration: none;
+}
+.create{
+    color: #EF4C4D;
 }
