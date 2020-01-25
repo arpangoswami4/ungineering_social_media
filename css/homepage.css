@@ -1,0 +1,272 @@
+body{
+    background-color:hsl(0, 0%,96%);
+    font-family:'Open Sans', sans-serif;
+    margin:0 0 0 0;
+
+
+}
+.navbar{
+    background-color:white;
+    width:100%;
+    text-decoration:none;
+    display:;                                                 /* display:inline-block is not required because height collapsing can be
+                                                                            dealt using clear fix.   */
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+    
+    
+}
+
+.navbar::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+span{
+    color:#f04c4e;
+}
+
+.logo-section{
+    margin:0 0 0 130px ;
+    float:left;
+    width:670px;
+    
+    box-sizing:border-box;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+
+}
+
+.logo::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.logo{
+    padding:30px 0  45px 0;
+    width:230px;
+}
+
+
+.logo-text{
+    float:left;
+    font-size:25px;
+    padding:10px 0 0 2px;
+   
+}
+    
+.logo-img{
+    width:45px;
+    float:left;
+    
+}
+
+img{
+    width:45px;
+    height:67px;
+    }
+
+
+.tagline{
+    font-size:9px;
+    color:grey;
+}
+
+.coloured-link{
+    color:#f04c4e;
+    padding:0 10px 0 0;
+    
+ }
+    
+
+.login{
+    margin:0 100px 0 0 ;
+    float:right;
+    width:384px;
+   
+    
+    box-sizing:border-box;
+}
+
+.dashboard{
+    
+    color:#f04c4e;
+    float:right;
+    font-size:16px;
+    
+    margin:47px 40px 0 0;
+}
+
+.dashboard:hover{
+    cursor:pointer;
+    
+}
+    
+.button{
+    color:#f04c4e;
+    padding:6px 27px;
+    border:1px solid red;
+    background-color:white;
+    font-weight:bold;
+    font-size:15px;
+    float:right;
+    margin:40px 0 0 0;
+}
+
+.button:hover{
+   background-color:#f04c4e;
+   color:white;
+   cursor:pointer;
+}
+
+
+.textarea-container{
+    
+    margin:30px  100px 0 130px ;
+}
+
+
+.textarea{
+    
+    
+    margin:auto;
+    width:60%;
+}
+
+
+
+h1{
+    color:#4A4A4A;
+    font-size:24px;
+    }
+
+.post{
+    ;
+    }
+    
+.post::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+    
+.postbutton{
+    color:white;
+    padding:6px 40px;
+    border:1px solid red;
+    background-color:#f04c4e;
+    font-weight:bold;
+    font-size:16px;
+    float:right;
+     
+}
+    
+.postbutton:hover{
+   cursor:pointer;
+}
+
+
+.text{
+    width:98%;
+    height:130px;
+    }
+
+.comment-box{
+   
+    margin:30px  0 0 0;
+ }
+
+
+
+.comment{
+    background-color:white;
+    width:60%;
+    margin:auto;
+    color:black ;
+    border:1px solid black;
+    margin:20px auto 20px auto;
+}
+
+.p-name{
+    padding:0 0 0 30px;
+    font-weight:bold;
+    color:#484848;
+}
+
+.p-comment{
+    padding: 0 30px  0 30px ;
+}
+
+.time{
+    padding:0 30px 0 0px;
+    text-align:right;
+}
+
+.footer{
+    background-color:#373737;
+    border:1px solid red;
+    color:white;
+    margin:70px 0 0  0 ;
+    width:100%;
+    display:;
+}
+
+.footer::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+.contact-section{
+    width:500px;
+    margin:0 0 0 130px; 
+    float:left; 
+}
+
+.contact{
+    width:170px;
+    padding:50px 0  50px 0;
+ 
+}
+
+.icon{
+    padding:10px 10px 0 0 ;
+    width:40px;
+}
+
+.queries-section{
+    float:left;
+    margin:0 100px 0 0 ;
+    width:530px;
+}
+
+.queries{
+    float:right;
+    padding:60px 0 0 0 ;
+    
+    }
+
+.q1{
+    margin:0;
+    font-size:14px;
+}
+
+.q2{
+    margin:0;
+    font-size:20px;
+    text-align:right;
+}
+
+
+
+
+

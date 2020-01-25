@@ -66,14 +66,21 @@
                         $username = "root";
                         $db_password = "123456";
                         $database = "social_media";
+                        $response=array();
                         $conn = mysqli_connect($hostname, $username, $db_password, $database);      
                         if (!$conn) {
-                            die("Connection failed: " . mysqli_connect_error());
+                            $response['success'] = false;
+                            $response['message'] = "Connection failed: " . mysqli_connect_error();
+                            echo json_encode($response);
+                            exit();
                         }        
                         $sql="SELECT * FROM statuses INNER JOIN users ON users.id=statuses.users_id ORDER BY users_id DESC";
                         $result = mysqli_query($conn, $sql);
                         if (!$result) {
-                            die("Error: " . $sql . "<br>" . mysqli_error($conn));
+                            $response['success'] = false;
+                            $response['message'] = "Error: " . $sql . "<br>" . mysqli_error($conn);
+                            echo json_encode($response);
+                            exit();
                         }              
                         while ($row=mysqli_fetch_array($result) ) 
                         {
@@ -145,6 +152,11 @@
                 </div>
             </div>        
         </div>
+        
+        
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/homepage.js"></script>
+        
         
     </body>
 </html>

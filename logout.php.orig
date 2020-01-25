@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+<?php 
+    session_start();
+    session_destroy();
+    header("Location:homepage.php");  
+?> 
+=======
+<?php
+    session_start();
+    session_destroy();
+    echo "logout successfull";
+    header("location:homepage.html");
+?>
+>>>>>>> e7e569472be8d5a7908b2b601d3fe5472f4288ed
