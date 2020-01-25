@@ -38,7 +38,7 @@
                     die("Connection failed : ". mysqli_connect_error());
                 }
                 
-                //$_SESSION['id']=4;
+                //$_SESSION['id']=2;
                 
                 $sql="SELECT * FROM users WHERE id=$_SESSION[id]";
                 
@@ -70,7 +70,7 @@
                             Phone Number <br/><br/>
                             <input type="text" name="phoneno" value="<?php echo $row['phone_no']; ?>" >
                             <br/><br/>
-                            <input type="submit" name="submit">
+                            <input type="submit" name="submit" value="save changes">
                         </form>
             </div>
         </div>
