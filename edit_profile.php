@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <link rel= "stylesheet" type="text/css" href="/social_media/css/edit_profile.css">
+       <link rel= "stylesheet" type="text/css" href="/social_media/css/edit_profile.css">
     </head>
     <body>
         <div class ="d1">
@@ -38,7 +38,7 @@
                     die("Connection failed : ". mysqli_connect_error());
                 }
                 
-                //$_SESSION['id']=1;
+                //$_SESSION['id']=4;
                 
                 $sql="SELECT * FROM users WHERE id=$_SESSION[id]";
                 
@@ -54,7 +54,7 @@
                 ?>
                     
                     
-                        <form method="post" action="edit_profileback.php">
+                        <form id="editform" method="post" action="edit_profileback.php">
                             Name <br/><br/>
                             <input type="text" name="name" value="<?php echo $row['name']; ?>" >
                             <br/><br/>
@@ -86,5 +86,8 @@
                     <p class="q2">queries@ungineering.com</p>
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/editprofile.js"></script>
+       
     </body>
 </html>
