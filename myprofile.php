@@ -23,8 +23,8 @@
         <hr>
         <div class="d2">
             <div class="c1">
-                <a href="https://www.youtube.com/"><span style="color: black;" ><b>Profile</b></span></a></br></br></br>
-                <a href="https://www.youtube.com/"><span style="text-decoration: underline;"><b>Edit profile</b></span></a>
+                <a href=""><span style="color: black;" ><b>Profile</b></span></a></br></br></br>
+                <a href="edit_profile.php"><span style="text-decoration: underline;"><b>Edit profile</b></span></a>
             </div>
             <div class="c2">
                 
